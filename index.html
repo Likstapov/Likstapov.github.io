@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дніпро — Серце України</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-water"></i> Дніпро
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про місто</a></li>
+                <li><a href="#landmarks">Пам'ятки</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#video">Відео</a></li>
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero секція -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Дніпро</span>
+                <span class="title-sub">Серце України</span>
+            </h1>
+            <p class="hero-description">
+                Відкрийте для себе одне з найбільших та найкрасивіших міст України — 
+                місто на берегах величного Дніпра з багатою історією та яскравим майбутнім
+            </p>
+            <a href="#about" class="btn btn-primary">
+                <span>Дізнатися більше</span>
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Про місто -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Знайомство</span>
+                <h2 class="section-title">Про місто Дніпро</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">
+                        <strong>Дніпро</strong> (до 2016 року — Дніпропетровськ) — 
+                        четверте за населенням місто України, важливий економічний, 
+                        транспортний та науковий центр країни.
+                    </p>
+                    <p>
+                        Місто розташоване на обох берегах річки Дніпро — однієї з 
+                        найбільших річок Європи. Засноване у 1776 році за наказом 
+                        Катерини II під назвою Катеринослав, місто має багату 
+                        історію та унікальний архітектурний спадок.
+                    </p>
+                    <p>
+                        Сьогодні Дніпро — це сучасний мегаполіс з населенням понад 
+                        980 000 мешканців, відомий своїми парками, набережними, 
+                        університетами та космічною промисловістю.
+                    </p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-number">1776</div>
+                        <div class="stat-label">Рік заснування</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number">980K+</div>
+                        <div class="stat-label">Населення</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <div class="stat-number">405</div>
+                        <div class="stat-label">км² площа</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-bridge"></i>
+                        </div>
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Мостів через Дніпро</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Пам'ятки -->
+    <section id="landmarks" class="landmarks">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Відкривайте</span>
+                <h2 class="section-title">Визначні місця</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="landmarks-grid">
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dnipro_embankment_2018.jpg/1280px-Dnipro_embankment_2018.jpg" alt="Набережна Дніпра">
+                        <div class="landmark-overlay">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="landmark-content">
+                        <h3>Набережна Дніпра</h3>
+                        <p>Найдовша набережна в Європі протяжністю понад 23 км — улюблене місце відпочинку мешканців міста.</p>
+                        <span class="landmark-tag"><i class="fas fa-map-marker-alt"></i> Центр міста</span>
+                    </div>
+                </div>
+
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Monastyrskyi_ostriv_Dnipro_1.jpg/1280px-Monastyrskyi_ostriv_Dnipro_1.jpg" alt="Монастирський острів">
+                        <div class="landmark-overlay">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="landmark-content">
+                        <h3>Монастирський острів</h3>
+                        <p>Унікальний природний парк посеред Дніпра з мальовничими пейзажами та історичними пам'ятками.</p>
+                        <span class="landmark-tag"><i class="fas fa-leaf"></i> Природа</span>
+                    </div>
+                </div>
+
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Dmytro_Yavornytskyi_Avenue_in_Dnipro.jpg/1280px-Dmytro_Yavornytskyi_Avenue_in_Dnipro.jpg" alt="Проспект Яворницького">
+                        <div class="landmark-overlay">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="landmark-content">
+                        <h3>Проспект Яворницького</h3>
+                        <p>Головна вулиця міста з історичною архітектурою, музеями, театрами та затишними кав'ярнями.</p>
+                        <span class="landmark-tag"><i class="fas fa-landmark"></i> Архітектура</span>
+                    </div>
+                </div>
+
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Shevchenko_Park_Dnipro.jpg/1280px-Shevchenko_Park_Dnipro.jpg" alt="Парк Шевченка">
+                        <div class="landmark-overlay">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="landmark-content">
+                        <h3>Парк ім. Шевченка</h3>
+                        <p>Найстаріший парк міста заснований у 1798 році — зелена оаза в центрі з вековими деревами.</p>
+                        <span class="landmark-tag"><i class="fas fa-tree"></i> Парк</span>
+                    </div>
+                </div>
+
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dnipropetrovsk_National_Historical_Museum.jpg/1280px-Dnipropetrovsk_National_Historical_Museum.jpg" alt="Історичний музей">
+                        <div class="landmark-overlay">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="landmark-content">
+                        <h3>Історичний музей</h3>
+                        <p>Один з найбільших музеїв України з унікальною колекцією артефактів козацької доби.</p>
+                        <span class="landmark-tag"><i class="fas fa-museum"></i> Культура</span>
+                    </div>
+                </div>
+
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rocket_park_Dnipro.jpg/800px-Rocket_park_Dnipro.jpg" alt="Парк ракет">
+                        <div class="landmark-overlay">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                    <div class="landmark-content">
+                        <h3>Парк ракет</h3>
+                        <p>Унікальний музей під відкритим небом — символ космічної промисловості міста.</p>
+                        <span class="landmark-tag"><i class="fas fa-rocket"></i> Наука</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Фотографії</span>
+                <h2 class="section-title">Галерея міста</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Dnipro_city_at_winter.jpg/1920px-Dnipro_city_at_winter.jpg" alt="Панорама Дніпра">
+                    <div class="gallery-overlay">
+                        <span>Панорама міста</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dnipro_Metro_bridge.jpg/1280px-Dnipro_Metro_bridge.jpg" alt="Міст метро">
+                    <div class="gallery-overlay">
+                        <span>Міст метро</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dnipro_river_view.jpg/1280px-Dnipro_river_view.jpg" alt="Річка Дніпро">
+                    <div class="gallery-overlay">
+                        <span>Річка Дніпро</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Menyly_Dnipro.jpg/1280px-Menyly_Dnipro.jpg" alt="Центр міста">
+                    <div class="gallery-overlay">
+                        <span>Центр міста</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Dnipro_sunset.jpg/1280px-Dnipro_sunset.jpg" alt="Захід сонця">
+                    <div class="gallery-overlay">
+                        <span>Захід сонця</span>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dnipropetrovsk_aerial_view.jpg/1920px-Dnipropetrovsk_aerial_view.jpg" alt="Дніпро з висоти">
+                    <div class="gallery-overlay">
+                        <span>З висоти пташиного польоту</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Відео -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Дивіться</span>
+                <h2 class="section-title">Відео про місто</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/qYJpd65XSLc" 
+                        title="Дніпро з висоти" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h3>Дніпро з висоти пташиного польоту</h3>
+                    <p>Насолоджуйтесь мальовничими краєвидами міста та річки Дніпро</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Цікаві факти -->
+    <section class="facts">
+        <div class="container">
+            <div class="facts-grid">
+                <div class="fact-item">
+                    <i class="fas fa-rocket"></i>
+                    <h4>Космічна столиця</h4>
+                    <p>Тут виробляють ракети-носії "Зеніт" та "Циклон"</p>
+                </div>
+                <div class="fact-item">
+                    <i class="fas fa-university"></i>
+                    <h4>Освітній центр</h4>
+                    <p>Понад 50 вищих навчальних закладів</p>
+                </div>
+                <div class="fact-item">
+                    <i class="fas fa-subway"></i>
+                    <h4>Метрополітен</h4>
+                    <p>Одне з 3 міст України з метро</p>
+                </div>
+                <div class="fact-item">
+                    <i class="fas fa-basketball-ball"></i>
+                    <h4>Спортивне місто</h4>
+                    <p>Домашня арена БК "Дніпро" та ФК "Дніпро"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-water"></i> Дніпро</h3>
+                    <p>Місто на великій річці — серце України</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="#home">Головна</a></li>
+                        <li><a href="#about">Про місто</a></li>
+                        <li><a href="#landmarks">Пам'ятки</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакти</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Україна, м. Дніпро</p>
+                    <p><i class="fas fa-envelope"></i> info@dnipro.ua</p>
+                    <p><i class="fas fa-globe"></i> www.dnipro.ua</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Дніпро. Створено з <i class="fas fa-heart"></i> для України</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Мобільне меню
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+
+        // Плавна прокрутка
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    navLinks.classList.remove('active');
+                    burger.classList.remove('active');
+                }
+            });
+        });
+
+        // Зміна навігації при прокрутці
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Анімація появи елементів
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.landmark-card, .stat-card, .gallery-item, .fact-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
