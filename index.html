@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪿 Мир Гусей - Всё о прекрасных птицах</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="logo">🪿 МирГусей</div>
+        <ul class="nav-links">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О гусях</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#video">Видео</a></li>
+            <li><a href="#facts">Факты</a></li>
+            <li><a href="#breeds">Породы</a></li>
+        </ul>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Главный баннер -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Добро пожаловать в<br><span>Мир Гусей</span></h1>
+            <p class="hero-subtitle">Откройте для себя удивительный мир этих величественных птиц</p>
+            <a href="#about" class="btn-primary">Узнать больше</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- О гусях -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">О Гусях</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600" alt="Красивый гусь">
+                </div>
+                <div class="about-content">
+                    <h3>Удивительные создания природы</h3>
+                    <p>Гуси — это крупные водоплавающие птицы семейства утиных. Они известны своим умом, верностью и красотой. Гуси образуют крепкие семейные пары и заботятся о потомстве вместе.</p>
+                    <p>Эти птицы могут жить до 25 лет и способны преодолевать тысячи километров во время миграции. Их характерное гогоание слышно издалека!</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">видов гусей</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">25</span>
+                            <span class="stat-label">лет жизни</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8000</span>
+                            <span class="stat-label">км миграции</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            <p class="section-subtitle">Полюбуйтесь красотой гусей</p>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1557180295-76eee20ae8aa?w=800" alt="Белый гусь">
+                    <div class="gallery-overlay">
+                        <span>Белый гусь</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563281746-48bb478d4541?w=500" alt="Гуси на воде">
+                    <div class="gallery-overlay">
+                        <span>На озере</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1603998474251-2c4a2f3400e0?w=500" alt="Серый гусь">
+                    <div class="gallery-overlay">
+                        <span>Серый гусь</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=500" alt="Гусята">
+                    <div class="gallery-overlay">
+                        <span>Милые гусята</span>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1604160789498-d0cbbb6f01bf?w=800" alt="Гуси в полёте">
+                    <div class="gallery-overlay">
+                        <span>В полёте</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1568158879083-c42860933ed7?w=500" alt="Канадский гусь">
+                    <div class="gallery-overlay">
+                        <span>Канадский гусь</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Видео секция -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title light">Видео о гусях</h2>
+            <p class="section-subtitle light">Посмотрите гусей в действии</p>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/pAyKJAtDNCw" 
+                            title="Гуси видео 1"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>Забавные гуси</h3>
+                    <p>Смешные моменты с гусями</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/6CGVH0W5Cj4" 
+                            title="Гуси видео 2"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>Гуси и их повадки</h3>
+                    <p>Интересное поведение птиц</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/wblXGFwXLgE" 
+                            title="Гуси видео 3"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>Миграция гусей</h3>
+                    <p>Невероятное путешествие</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Интересные факты -->
+    <section id="facts" class="facts-section">
+        <div class="container">
+            <h2 class="section-title">Интересные факты</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-icon">❤️</div>
+                    <h3>Верность партнёру</h3>
+                    <p>Гуси образуют пары на всю жизнь и остаются верными своему партнёру. Если один погибает, второй может скорбеть годами.</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">✈️</div>
+                    <h3>Высота полёта</h3>
+                    <p>Гуси могут летать на высоте до 9000 метров! Горные гуси пересекают Гималаи на невероятной высоте.</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🛡️</div>
+                    <h3>Охранники</h3>
+                    <p>В древности гусей использовали как охранников. Они громко гогочут при приближении чужаков.</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🧠</div>
+                    <h3>Умные птицы</h3>
+                    <p>Гуси обладают отличной памятью и могут узнавать людей даже спустя много лет.</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">👨‍👩‍👧</div>
+                    <h3>Семейные</h3>
+                    <p>Оба родителя участвуют в воспитании птенцов. Семьи остаются вместе около года.</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">💨</div>
+                    <h3>Скорость</h3>
+                    <p>Гуси могут развивать скорость до 70 км/ч в полёте и преодолевать до 1500 км за день!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Породы гусей -->
+    <section id="breeds" class="breeds-section">
+        <div class="container">
+            <h2 class="section-title">Популярные породы</h2>
+            <div class="breeds-slider">
+                <div class="breed-card">
+                    <img src="https://images.unsplash.com/photo-1557180295-76eee20ae8aa?w=400" alt="Белый итальянский гусь">
+                    <div class="breed-info">
+                        <h3>Итальянский белый</h3>
+                        <p>Элегантная порода с белоснежным оперением. Отличается спокойным характером.</p>
+                        <span class="breed-origin">🇮🇹 Италия</span>
+                    </div>
+                </div>
+                <div class="breed-card">
+                    <img src="https://images.unsplash.com/photo-1568158879083-c42860933ed7?w=400" alt="Канадский гусь">
+                    <div class="breed-info">
+                        <h3>Канадская казарка</h3>
+                        <p>Узнаваема по чёрной голове и белому "ремешку" на шее. Очень распространена.</p>
+                        <span class="breed-origin">🇨🇦 Канада</span>
+                    </div>
+                </div>
+                <div class="breed-card">
+                    <img src="https://images.unsplash.com/photo-1603998474251-2c4a2f3400e0?w=400" alt="Серый гусь">
+                    <div class="breed-info">
+                        <h3>Серый гусь</h3>
+                        <p>Предок большинства домашних пород. Дикий вид, обитающий в Евразии.</p>
+                        <span class="breed-origin">🌍 Евразия</span>
+                    </div>
+                </div>
+                <div class="breed-card">
+                    <img src="https://images.unsplash.com/photo-1563281746-48bb478d4541?w=400" alt="Тулузский гусь">
+                    <div class="breed-info">
+                        <h3>Тулузский</h3>
+                        <p>Крупная мясная порода с характерной "подвеской" под клювом.</p>
+                        <span class="breed-origin">🇫🇷 Франция</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Призыв к действию -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Полюбите гусей! 🪿</h2>
+                <p>Эти удивительные птицы заслуживают нашего внимания и заботы</p>
+                <div class="cta-buttons">
+                    <a href="#gallery" class="btn-primary">Смотреть галерею</a>
+                    <a href="#video" class="btn-secondary">Смотреть видео</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>🪿</span>
+                    <h3>МирГусей</h3>
+                    <p>Любите природу и её прекрасных созданий</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <a href="#home">Главная</a>
+                    <a href="#about">О гусях</a>
+                    <a href="#gallery">Галерея</a>
+                    <a href="#video">Видео</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Социальные сети</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📸</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">▶️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 МирГусей. Сделано с ❤️ для любителей гусей</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
